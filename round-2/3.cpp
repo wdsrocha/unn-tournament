@@ -53,26 +53,5 @@ int main() {
     cout << "---- SelectionSort ----" << endl;
     cout << "Changes: " << selection_sort(v2) << endl;;
 
-    for (int i = 120; i--;) {
-        vector <int> A(5);
-        vector <int> B(5);
-        vector <int> v(5);
-        for (int i = 0; i < 5 ; i++) {
-            cin >> v[i];
-            A[i] = v[i];
-            B[i] = v[i];
-        }
-
-        bubble_sort(A);
-        for (int i = 0; i < 5; i++) {
-            assert(A[i] == i + 1);
-        }
-
-        selection_sort(B);
-        for (int i = 0; i < 5; i++) {
-            assert(B[i] == i + 1);
-        }
-    }
-
     return 0;
 }
