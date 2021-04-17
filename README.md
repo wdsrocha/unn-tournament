@@ -1,17 +1,16 @@
-# UNN Tournament
+# 1° Torneio de Programação da UNINORTE
 
-Invited to join by a friend :))
+- [Sobre o torneio](https://www.uninorte.com.br/inscricoes-abertas-para-o-torneio-de-programacao-da-uninorte/)
+- [Regulamento](./regulamento.pdf)
+- [Problemas da prova](./prova.md)
+- Minha dupla: [@levi](https://github.com/levidasilvalima)
 
-About: https://www.uninorte.com.br/inscricoes-abertas-para-o-torneio-de-programacao-da-uninorte/
+## Testando os códigos
 
-Team: [@levi](https://github.com/levidasilvalima)
+Exemplo de comando de compilação e execução:
 
-## Testing files
+`g++ ./round-1/1.cpp && ./a.out`
 
-Compile and execute with the following command:
+Obs: troque `./round-1/1.cpp` para o round e problema desejado.
 
-`g++ x.cpp && ./a.out`
-
-Where `x` is the number of the problem.
-
-G++ version: `Apple clang version 12.0.0 (clang-1200.0.32.29)` (probably will run fine with other versions as well)
+Versão do G++: `Apple clang version 12.0.0 (clang-1200.0.32.29)` (provavelmente não vai dar problema se rodar com outras versões).
