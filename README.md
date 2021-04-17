@@ -4,6 +4,8 @@ Invited to join by a friend :))
 
 About: https://www.uninorte.com.br/inscricoes-abertas-para-o-torneio-de-programacao-da-uninorte/
 
+Team: [@levi](https://github.com/levidasilvalima)
+
 ## Testing files
 
 Compile and execute with the following command:
