@@ -23,7 +23,7 @@ int selection_sort(vector<int>& v) {
     for(int i=0; i < v.size() - 1; ++i) {
         min_index = i;
         for(int j = i + 1; j < v.size(); ++j) {
-            if(v[j] < v[i])  {
+            if(v[j] < v[min_index])  {
                 min_index = j;
             }
         }
@@ -46,7 +46,7 @@ void create_case(vector <int>& v) {
 int main() {
     vector<int> v1, v2;
     create_case(v1);
-    create_case(v1);
+    create_case(v2);
     cout << "---- BubbleSort ----" << endl;
     cout << "Changes: " << bubble_sort(v1) << endl;;
     cout << endl << endl;
